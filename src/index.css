@@ -34,9 +34,9 @@ All colors MUST be HSL.
     --success-foreground: 255 255 255;
     --success-glow: 140 35% 85%;
 
-    --warning: 35 45% 65%;
+    --warning: 0 0% 20%;
     --warning-foreground: 255 255 255;
-    --warning-glow: 35 45% 88%;
+    --warning-glow: 0 0% 40%;
 
     --danger: 0 45% 70%;
     --danger-foreground: 255 255 255;
@@ -52,7 +52,7 @@ All colors MUST be HSL.
     /* GPS Monitoring specific colors */
     --status-active: 140 35% 55%;
     --status-inactive: 120 120 140;
-    --status-maintenance: 35 45% 65%;
+    --status-maintenance: 0 0% 20%;
     --status-offline: 0 45% 70%;
 
     /* Gradients */
