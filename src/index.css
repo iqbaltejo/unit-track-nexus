@@ -25,7 +25,7 @@ All colors MUST be HSL.
     --secondary-foreground: 255 255 255;
 
     --muted: 0 0% 20%;
-    --muted-foreground: 0 0% 70%;
+    --muted-foreground: 0 0% 85%;
 
     --accent: 0 0% 25%;
     --accent-foreground: 255 255 255;
@@ -34,9 +34,9 @@ All colors MUST be HSL.
     --success-foreground: 255 255 255;
     --success-glow: 140 35% 85%;
 
-    --warning: 0 0% 20%;
+    --warning: 120 50% 45%;
     --warning-foreground: 255 255 255;
-    --warning-glow: 0 0% 40%;
+    --warning-glow: 120 50% 70%;
 
     --danger: 0 45% 70%;
     --danger-foreground: 255 255 255;
@@ -52,7 +52,7 @@ All colors MUST be HSL.
     /* GPS Monitoring specific colors */
     --status-active: 140 35% 55%;
     --status-inactive: 120 120 140;
-    --status-maintenance: 0 0% 20%;
+    --status-maintenance: 120 50% 45%;
     --status-offline: 0 45% 70%;
 
     /* Gradients */
@@ -66,19 +66,13 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
+    --sidebar-background: 0 0% 10%;
+    --sidebar-foreground: 0 0% 90%;
+    --sidebar-primary: 0 0% 95%;
+    --sidebar-primary-foreground: 0 0% 10%;
+    --sidebar-accent: 0 0% 20%;
+    --sidebar-accent-foreground: 0 0% 90%;
+    --sidebar-border: 0 0% 25%;
 
     --sidebar-ring: 217.2 91.2% 59.8%;
   }
