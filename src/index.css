@@ -7,34 +7,62 @@ All colors MUST be HSL.
 */
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+:root {
+    --background: 248 250 252;
+    --foreground: 15 23 42;
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 255 255 255;
+    --card-foreground: 15 23 42;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover: 255 255 255;
+    --popover-foreground: 15 23 42;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    --primary: 30 58% 69%;
+    --primary-foreground: 255 255 255;
+    --primary-glow: 30 58% 85%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    --secondary: 226 100% 94%;
+    --secondary-foreground: 30 58% 69%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    --muted: 248 250 252;
+    --muted-foreground: 100 116 139;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    --accent: 226 100% 94%;
+    --accent-foreground: 30 58% 69%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    --success: 142 76% 36%;
+    --success-foreground: 255 255 255;
+    --success-glow: 142 76% 85%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 15 23 42;
+    --warning-glow: 38 92% 85%;
+
+    --danger: 0 84% 60%;
+    --danger-foreground: 255 255 255;
+    --danger-glow: 0 84% 85%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 255 255 255;
+
+    --border: 226 57% 91%;
+    --input: 226 57% 91%;
+    --ring: 30 58% 69%;
+
+    /* GPS Monitoring specific colors */
+    --status-active: 142 76% 36%;
+    --status-inactive: 100 116 139;
+    --status-maintenance: 38 92% 50%;
+    --status-offline: 0 84% 60%;
+
+    /* Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(30 58% 69%), hsl(30 58% 85%));
+    --gradient-success: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 50%));
+    --gradient-dashboard: linear-gradient(135deg, hsl(248 250 252), hsl(226 100% 97%));
+
+    /* Shadows */
+    --shadow-card: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --shadow-status: 0 0 20px rgba(var(--primary), 0.3);
 
     --radius: 0.5rem;
 
